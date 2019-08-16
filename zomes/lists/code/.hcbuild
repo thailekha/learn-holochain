@@ -1,0 +1,14 @@
+{
+  "steps": [
+    {
+      "command": "cargo",
+      "arguments": [
+        "build",
+        "--release",
+        "--target=wasm32-unknown-unknown",
+        "--target-dir=/home/vagrant/nix-holochain/lists/target"
+      ]
+    }
+  ],
+  "artifact": "/home/vagrant/nix-holochain/lists/target/wasm32-unknown-unknown/release/lists.wasm"
+}
